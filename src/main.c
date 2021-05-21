@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <unistd.h>
 
-#include "lib/espl_lib.c"
+#include "../lib/espl_lib.h"
 
 int  main(){
 
