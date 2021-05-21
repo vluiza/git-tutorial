@@ -33,9 +33,9 @@
 #include <stdlib.h>
 #include <time.h>
 
-#include "main.h"
-#include "my_states.h"
-#include "states.h"
+#include "../include/main.h"
+#include "../include/my_states.h"
+#include "../lib/states.h"
 
 const char *argp_program_version = "1.0";
 const char *argp_program_bug_address = "alex.hoffman@tum.de";
@@ -57,7 +57,7 @@ typedef struct {
   int args[1];
   int verbose;
   int tick;
-} arguments_t:
+} arguments_t;
 
 void errno_abort(char *message) {
   perror(message);
